@@ -1,0 +1,4 @@
+{
+    "service_name": "MTNX Service",
+    "service_slug": "{{ cookiecutter.service_name.lower()|replace('-', ' ')|replace(' ', '-')|replace('.', '-')|trim() }}"
+}
